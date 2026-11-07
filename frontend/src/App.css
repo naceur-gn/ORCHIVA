@@ -1582,3 +1582,8 @@
   flex-direction: column;
   gap: 16px;
 }
+
+/* Sharp corners for all rectangular elements */
+*:not(.eyebrow-dot):not(.pulse-indicator):not(.feedback-icon) {
+  border-radius: 0 !important;
+}
