@@ -1485,6 +1485,9 @@
   .mobile-toggle {
     display: block;
   }
+  .header-actions .btn-primary {
+    display: none;
+  }
   .hero-title {
     font-size: 32px;
   }
@@ -1517,17 +1520,45 @@
     text-align: center;
   }
   .telemetry-cards {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+  .methodology-steps {
+    grid-template-columns: 1fr;
+  }
+  .values-grid {
+    grid-template-columns: 1fr;
+  }
+  .team-roles-grid {
+    grid-template-columns: 1fr;
+  }
+  .pilot-deliverables-grid {
+    grid-template-columns: 1fr;
   }
   .root-layer {
     grid-template-columns: 1fr;
-    text-align: left;
   }
   .layer-metrics {
     text-align: left;
   }
+  .product-flagship-card {
+    padding: 24px 20px;
+  }
+  .section {
+    padding: 64px 0;
+  }
+  .t-val {
+    font-size: 22px;
+  }
+  .hero-metrics-grid > *,
+  .modules-grid > *,
+  .telemetry-cards > *,
+  .methodology-steps > *,
+  .values-grid > *,
+  .team-roles-grid > *,
+  .pilot-deliverables-grid > * {
+    min-width: 0;
+  }
 }
-
 .mobile-drawer {
   position: fixed;
   inset: 0;

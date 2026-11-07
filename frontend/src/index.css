@@ -3,6 +3,10 @@
    Inspired by ODDO BHF: Elegance, Restraint, Transparency & Technical Rigor
    ========================================================================== */
 
+html, body {
+  overflow-x: hidden;
+}
+
 :root {
   /* Brand Palette */
   --color-forest: #0F3B2E;
